@@ -1,0 +1,14 @@
+.slider {
+  font-size: 25px;
+  display: none;
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .slider {
+    display: block;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+}
